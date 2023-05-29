@@ -1,11 +1,11 @@
 {
   "tests": [
     {
-      "name": "Imprime a string",
+      "name": "Test via unittest",
       "setup": "",
-      "run": "python main.py",
+      "run": "python -m unittest discover -s test",
       "input": "",
-      "output": "oi mundo!",
+      "output": "",
       "comparison": "included",
       "timeout": 1,
       "points": 100
